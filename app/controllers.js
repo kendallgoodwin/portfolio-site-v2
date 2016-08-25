@@ -1,5 +1,5 @@
-angular.module('PortfolioCtrl', ['PortfolioServices'])
+angular.module('PortfolioCtrl', ['PortfolioServices', 'ui.bootstrap'])
 
-app.controller('HomeCtrl', ['$scope', function($scope) {
-	
+app.controller('NavbarCtrl', ['$scope', function($scope) {
+
 }])

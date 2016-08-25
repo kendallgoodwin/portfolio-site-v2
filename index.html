@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="PortfolioApp">
 <head>
 	<title>Kendall Goodwin</title>
 	<!-- Bootstrap -->
@@ -22,6 +22,10 @@
 </head>
 <body>
 
+	<div ng-include="'/views/nav.html'" ng-controller="NavbarCtrl"></div>
+	<div class="container">
+    <div ui-view></div>
+  </div>
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
