@@ -14,4 +14,9 @@
 
 .about {
 	float: right;
+	margin-top: 40px;
+}
+
+.skill-icons {
+	width: 100px;
 }
