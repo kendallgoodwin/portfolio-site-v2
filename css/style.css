@@ -1,0 +1,17 @@
+/*.title-name.ng-enter {
+    -webkit-animation: fadeInRight 0.5s;
+    animation: fadeInRight 0.5s;
+}
+
+.title-name.ng-leave {
+    -webkit-animation: fadeInRight 0.5s;
+    animation: fadeInRight 0.5s;
+}*/
+
+.kendall-img {
+	float: left;
+}
+
+.about {
+	float: right;
+}
