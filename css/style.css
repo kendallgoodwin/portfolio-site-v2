@@ -8,6 +8,8 @@
     animation: fadeInRight 0.5s;
 }*/
 
+
+/*/////ABOUT/////*/
 .kendall-img {
 	float: left;
 }
@@ -17,6 +19,24 @@
 	margin-top: 40px;
 }
 
+.skills {
+	margin-top: 60px;
+	text-align: center;
+}
+
 .skill-icons {
 	width: 100px;
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-bottom: 30px;
+}
+
+.cv-buttons {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+.view-cv-button {
+	/*margin-right: 75px;*/
 }
