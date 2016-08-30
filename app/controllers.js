@@ -1,4 +1,4 @@
-angular.module('PortfolioCtrl', ['PortfolioServices', 'ui.bootstrap'])
+angular.module('PortfolioCtrl', ['PortfolioServices', 'ui.bootstrap', 'ngAnimate'])
 
 app.controller('NavbarCtrl', ['$scope', function($scope) {
 

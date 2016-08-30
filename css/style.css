@@ -1,11 +1,20 @@
-/*.title-name.ng-enter {
-    -webkit-animation: fadeInRight 0.5s;
-    animation: fadeInRight 0.5s;
+.title-name {
+   -webkit-animation-name: fadeInUp;
+   -moz-animation-name: fadeInUp;
+   -o-animation-name: fadeInUp;
+   animation-name: fadeInUp;
 }
 
-.title-name.ng-leave {
-    -webkit-animation: fadeInRight 0.5s;
-    animation: fadeInRight 0.5s;
+.title-subtitle {
+   -webkit-animation-name: pulse;
+   -moz-animation-name: pulse;
+   -o-animation-name: pulse;
+   animation-name: pulse;
+}
+
+/*.title-name.ng-leave {
+    -webkit-animation: fadeInRight 5s;
+    animation: fadeInRight 5s;
 }*/
 
 
