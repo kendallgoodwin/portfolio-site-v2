@@ -73,3 +73,55 @@
 
 
 /*/////CONTACT/////*/
+.contact-icons {
+	text-align: center;
+	margin-top: 200px;
+}
+
+.fa-envelope-o {
+	margin-right: 30px;
+}
+
+.fa-envelope-o:hover {
+	color: green;
+	 -webkit-animation-name: pulse;
+   -moz-animation-name: pulse;
+   -o-animation-name: pulse;
+   animation-name: pulse;
+}
+
+.fa-github {
+	margin-right: 30px;
+}
+
+.fa-github:hover {
+	color: green;
+	 -webkit-animation-name: pulse;
+   -moz-animation-name: pulse;
+   -o-animation-name: pulse;
+   animation-name: pulse;
+}
+
+.fa-linkedin {
+	margin-right: 30px;
+}
+
+.fa-linkedin:hover {
+	color: green;
+	 -webkit-animation-name: pulse;
+   -moz-animation-name: pulse;
+   -o-animation-name: pulse;
+   animation-name: pulse;
+}
+
+.fa-instagram {
+
+}
+
+.fa-instagram:hover {
+	color: green;
+	 -webkit-animation-name: pulse;
+   -moz-animation-name: pulse;
+   -o-animation-name: pulse;
+   animation-name: pulse;
+}
