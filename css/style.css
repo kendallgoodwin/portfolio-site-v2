@@ -1,15 +1,24 @@
+/*/////HOME/////*/
+.home {
+	text-align: center;
+	margin-top: 110px;
+}
+
 .title-name {
-   -webkit-animation-name: fadeInUp;
-   -moz-animation-name: fadeInUp;
-   -o-animation-name: fadeInUp;
-   animation-name: fadeInUp;
+	font-size: 100px;
+   -webkit-animation-name: fadeInDownBig;
+   -moz-animation-name: fadeInDownBig;
+   -o-animation-name: fadeInDownBig;
+   animation-name: fadeInDownBig;
 }
 
 .title-subtitle {
-   -webkit-animation-name: pulse;
-   -moz-animation-name: pulse;
-   -o-animation-name: pulse;
-   animation-name: pulse;
+	font-size: 50px;
+   -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;
+   animation-delay: 1s;
 }
 
 /*.title-name.ng-leave {
