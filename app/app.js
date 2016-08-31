@@ -15,5 +15,10 @@ var app = angular.module('PortfolioApp', ['PortfolioCtrl', 'ui.router'])
   	templateUrl: 'views/about.html',
   	controller: 'AboutCtrl'
   })
+  $stateProvider
+  .state('Contact', {
+  	url: '/contact',
+  	templateUrl: 'views/contact.html'
+  })
 
 }]);
