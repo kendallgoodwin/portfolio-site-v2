@@ -97,22 +97,41 @@
 #kgmarried {
 	margin-bottom: 15px;
 	border: 1px solid black;
+ -webkit-animation-name: fadeInUpBig;
+ -moz-animation-name: fadeInUpBig;
+ -o-animation-name: fadeInUpBig;
+ animation-name: fadeInUpBig;
 }
 
 #bestever {
 	margin-bottom: 15px;
 	border: 1px solid black;
+	 -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;
+   animation-delay: 0.25s;
 }
 
 #homeventory {
 	margin-bottom: 15px;
 	border: 1px solid black;
+	 -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;
+   animation-delay: 0.5s;
 }
 
 #memory {
 	margin-top: 17px;
 	margin-bottom: 15px;
 	border: 1px solid black;
+	 -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;
+   animation-delay: 0.75s;
 }
 
 /*/////CONTACT/////*/
