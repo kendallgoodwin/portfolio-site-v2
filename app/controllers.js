@@ -13,3 +13,7 @@ app.controller('HomeCtrl', ['$scope', '$state', function($scope, $state) {
 app.controller('AboutCtrl', ['$scope', '$state', function($scope, $state) {
 	$state.go('About')
 }])
+
+app.controller('ProjectsCtrl', ['$scope', '$state', function($scope, $state) {
+	$state.go('Projects')
+}])

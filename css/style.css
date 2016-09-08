@@ -5,6 +5,7 @@
 }
 
 .title-name {
+	color: #82d5c8;
 	font-size: 100px;
    -webkit-animation-name: fadeInDownBig;
    -moz-animation-name: fadeInDownBig;
@@ -13,6 +14,7 @@
 }
 
 .title-subtitle {
+	color: #82d5c8;
 	font-size: 50px;
    -webkit-animation-name: fadeInUpBig;
    -moz-animation-name: fadeInUpBig;
@@ -42,6 +44,8 @@
 }
 
 .about-text {
+	margin-left: 40px;
+	margin-right: 40px;
 	-webkit-animation-name: fadeInUp;
 	-moz-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
@@ -52,6 +56,11 @@
 .skills {
 	margin-top: 60px;
 	text-align: center;
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	animation-delay: 2s;
 }
 
 .skill-icons {
@@ -72,56 +81,114 @@
 }
 
 
+/*/////PROJECTS/////*/
+#left {
+	float: left;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#right {
+	float: right;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+#kgmarried {
+	margin-bottom: 15px;
+	border: 1px solid black;
+}
+
+#bestever {
+	margin-bottom: 15px;
+	border: 1px solid black;
+}
+
+#homeventory {
+	margin-bottom: 15px;
+	border: 1px solid black;
+}
+
+#memory {
+	margin-top: 17px;
+	margin-bottom: 15px;
+	border: 1px solid black;
+}
+
 /*/////CONTACT/////*/
 .contact-icons {
 	text-align: center;
 	margin-top: 200px;
+/*	 -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;*/
 }
 
 .fa-envelope-o {
 	margin-right: 30px;
+	 -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;
+   animation-iteration-count: 1;
 }
 
 .fa-envelope-o:hover {
-	color: green;
-	 -webkit-animation-name: pulse;
+	color: #82d5c8;
+/*	 -webkit-animation-name: pulse;
    -moz-animation-name: pulse;
    -o-animation-name: pulse;
-   animation-name: pulse;
+   animation-name: pulse;*/
 }
 
 .fa-github {
 	margin-right: 30px;
+	 -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;
+   animation-delay: 0.25s;
 }
 
 .fa-github:hover {
-	color: green;
-	 -webkit-animation-name: pulse;
+	color: #82d5c8;
+/*	 -webkit-animation-name: pulse;
    -moz-animation-name: pulse;
    -o-animation-name: pulse;
-   animation-name: pulse;
+   animation-name: pulse;*/
 }
 
 .fa-linkedin {
 	margin-right: 30px;
+	 -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;
+   animation-delay: 0.5s;
 }
 
 .fa-linkedin:hover {
-	color: green;
-	 -webkit-animation-name: pulse;
+	color: #82d5c8;
+/*	 -webkit-animation-name: pulse;
    -moz-animation-name: pulse;
    -o-animation-name: pulse;
-   animation-name: pulse;
+   animation-name: pulse;*/
 }
 
 .fa-instagram {
+	 -webkit-animation-name: fadeInUpBig;
+   -moz-animation-name: fadeInUpBig;
+   -o-animation-name: fadeInUpBig;
+   animation-name: fadeInUpBig;
+   animation-delay: 0.75s;
 
 }
 
 .fa-instagram:hover {
-	color: green;
-	 -webkit-animation-name: pulse;
+	color: #82d5c8;
+/*	 -webkit-animation-name: pulse;
    -moz-animation-name: pulse;
    -o-animation-name: pulse;
-   animation-name: pulse;
+   animation-name: pulse;*/
 }
