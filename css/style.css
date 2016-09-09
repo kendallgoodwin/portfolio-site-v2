@@ -134,6 +134,10 @@
    animation-delay: 0.75s;
 }
 
+.horizontal-collapse {
+    height: 70px;
+  }
+
 /*/////CONTACT/////*/
 .contact-icons {
 	text-align: center;
