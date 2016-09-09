@@ -74,6 +74,11 @@
 	text-align: center;
 	margin-top: 50px;
 	margin-bottom: 40px;
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	animation-delay: 3s;
 }
 
 .view-cv-button {

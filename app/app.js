@@ -16,6 +16,12 @@ var app = angular.module('PortfolioApp', ['PortfolioCtrl', 'ui.router'])
   	controller: 'AboutCtrl'
   })
   $stateProvider
+  .state('Personal', {
+    url: '/about/personal',
+    templateUrl: 'views/personal.html',
+    controller: 'PersonalCtrl'
+  })
+  $stateProvider
   .state('Projects', {
   	url: '/projects',
   	templateUrl: 'views/projects.html',
