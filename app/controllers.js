@@ -19,10 +19,10 @@ app.controller('PersonalCtrl', ['$scope', '$state', function($scope, $state) {
 }])
 
 app.controller('ProjectsCtrl', ['$scope', '$state', function($scope, $state) {
-	$scope.isCollapsed = true;
-	$scope.isCollapsedHorizontal = true;
-
-	$scope.oneAtATime = true;
 
 	$state.go('Projects')
+}])
+
+app.controller('Project1Ctrl', ['$scope', '$state', function($scope, $state) {
+	$state.go('kgmarried')
 }])

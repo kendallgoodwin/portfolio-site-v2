@@ -87,6 +87,18 @@
 
 
 /*/////PROJECTS/////*/
+.panel {
+	margin-bottom: 5px;
+}
+
+.panel-default {
+	display: inline-block;
+}
+
+#projects {
+	display: inline;
+}
+
 #left {
 	float: left;
 	margin-top: 40px;
@@ -129,7 +141,6 @@
 }
 
 #memory {
-	margin-top: 17px;
 	margin-bottom: 15px;
 	border: 1px solid black;
 	 -webkit-animation-name: fadeInUpBig;
