@@ -1,9 +1,16 @@
 <div class="container">
 	<div class="col-sm-12 col-md-6 col-lg-6" id="left">
-		<img src="/images/kgmarried.png" class="img-responsive animated" id="kgmarried" ng-click="isCollapsed = !isCollapsed">
-		<div uib-collapse="isCollapsed">
-			<div class="well well-lg">Some content</div>
-		</div>
+		<!-- <img src="/images/kgmarried.png" class="img-responsive animated" id="kgmarried" ng-click="toggleOpen()"> -->
+		<uib-accordion close-others="oneAtATime">
+    <div uib-accordion-group class="panel-default" is-open="status.open">
+      <uib-accordion-heading>
+        <img src="/images/kgmarried.png" class="img-responsive animated" id="kgmarried"><!-- <i class="pull-right glyphicon" ng-class="{'glyphicon-chevron-down': status.open, 'glyphicon-chevron-right': !status.open}"></i> -->
+      </uib-accordion-heading>
+      This is just some content to illustrate fancy headings.
+    </div>
+
+
+
 		<img src="/images/homeventory.png" class="img-responsive animated" id="homeventory" ng-click="isCollapsed = !isCollapsed">
 		<div uib-collapse="isCollapsed">
 			<div class="well well-lg">Some content</div>
