@@ -27,6 +27,14 @@ app.controller('Project1Ctrl', ['$scope', '$state', function($scope, $state) {
 	$state.go('kgmarried')
 }])
 
+app.controller('Project2Ctrl', ['$scope', '$state', function($scope, $state) {
+	$state.go('bestever')
+}])
+
+app.controller('Project3Ctrl', ['$scope', '$state', function($scope, $state) {
+	$state.go('homeventory')
+}])
+
 app.controller('Project4Ctrl', ['$scope', '$state', function($scope, $state) {
 	$state.go('memory')
 }])

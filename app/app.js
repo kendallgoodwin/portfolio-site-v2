@@ -34,6 +34,18 @@ var app = angular.module('PortfolioApp', ['PortfolioCtrl', 'ui.router'])
     controller: 'Project1Ctrl'
   })
   $stateProvider
+  .state('bestever', {
+    url: '/projects/bestever',
+    templateUrl: 'views/bestever.html',
+    controller: 'Project2Ctrl'
+  })  
+  $stateProvider
+  .state('homeventory', {
+    url: '/projects/homeventory',
+    templateUrl: 'views/homeventory.html',
+    controller: 'Project3Ctrl'
+  })
+  $stateProvider
   .state('memory', {
     url: '/projects/memory',
     templateUrl: 'views/memory.html',
