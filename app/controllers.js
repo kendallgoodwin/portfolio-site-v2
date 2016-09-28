@@ -26,3 +26,7 @@ app.controller('ProjectsCtrl', ['$scope', '$state', function($scope, $state) {
 app.controller('Project1Ctrl', ['$scope', '$state', function($scope, $state) {
 	$state.go('kgmarried')
 }])
+
+app.controller('Project4Ctrl', ['$scope', '$state', function($scope, $state) {
+	$state.go('memory')
+}])
