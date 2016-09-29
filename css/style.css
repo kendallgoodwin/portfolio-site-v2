@@ -150,9 +150,14 @@
    animation-delay: 0.75s;
 }
 
-.horizontal-collapse {
-    height: 70px;
-  }
+#responsive-showcase {
+	margin-top: 50px;
+}
+
+#proj-description {
+	margin-top: 65px;
+	padding-right: 40px;
+}
 
 /*/////CONTACT/////*/
 .contact-icons {
