@@ -77,11 +77,10 @@
 	margin-top: 40px;
 }
 
-.about-text {
+.title-text {
 	font-family: 'EB Garamond', serif;
-	font-size: 20px;
 	margin-left: 40px;
-	margin-right: 40px;
+	margin-top: 45px;
 	-webkit-animation-name: fadeInUp;
 	-moz-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
@@ -89,19 +88,51 @@
 	animation-delay: 1s;
 }
 
+.about-text {
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 15px;
+	-webkit-animation-name: fadeInUp;
+	-moz-animation-name: fadeInUp;
+	-o-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	animation-delay: 1.5s;
+}
+
 h3 {
 	font-family: 'Domine', serif;
 	font-size: 30px;
 }
 
+.humby-link {
+	color: black;
+	text-decoration: underline;
+}
+
+.humby-link:hover {
+	/*background-color: black;*/
+	/*border: 1px solid black;*/
+	color: #82d5c8;
+	text-decoration: none;
+}
+
 .skills {
-	margin-top: 60px;
+	margin-top: 50px;
+	border: 2px solid black;
+	/*background-color: #82d5c8;*/
+	padding-top: 40px;
 	text-align: center;
 	-webkit-animation-name: fadeInUp;
 	-moz-animation-name: fadeInUp;
 	-o-animation-name: fadeInUp;
 	animation-name: fadeInUp;
 	animation-delay: 2s;
+}
+
+.skills:hover {
+	background-color: #82d5c8;
 }
 
 .skill-icons {
@@ -124,6 +155,19 @@ h3 {
 
 .view-cv-button {
 	/*margin-right: 75px;*/
+}
+
+.btn {
+	background-color: #82d5c8;
+	font-family: 'Domine', serif;
+	font-weight: bold;
+	color: white;
+	border: 1px solid black;
+}
+
+.btn:hover {
+	color: white;
+	background-color: black;
 }
 
 
@@ -217,8 +261,17 @@ h3 {
 	margin-right: 5px;
 }
 
+.fa-arrow-circle-left {
+	margin-right: 5px;
+}
+
+.go-back {
+	text-align: center;
+}
+
 h4 {
 	font-family: 'Domine', serif;
+	font-weight: bold;
 	font-size: 30px;
 }
 
@@ -233,7 +286,9 @@ h4 {
 }
 
 .fa-envelope-o {
-	margin-right: 30px;
+	color: black;
+	font-size: 100px;
+	margin-right: 40px;
 	 -webkit-animation-name: fadeInUpBig;
    -moz-animation-name: fadeInUpBig;
    -o-animation-name: fadeInUpBig;
@@ -250,7 +305,9 @@ h4 {
 }
 
 .fa-github {
-	margin-right: 30px;
+	color: black;
+	font-size: 100px;
+	margin-right: 40px;
 	 -webkit-animation-name: fadeInUpBig;
    -moz-animation-name: fadeInUpBig;
    -o-animation-name: fadeInUpBig;
@@ -267,7 +324,9 @@ h4 {
 }
 
 .fa-linkedin {
-	margin-right: 30px;
+	color: black;
+	font-size: 100px;
+	margin-right: 40px;
 	 -webkit-animation-name: fadeInUpBig;
    -moz-animation-name: fadeInUpBig;
    -o-animation-name: fadeInUpBig;
@@ -284,6 +343,8 @@ h4 {
 }
 
 .fa-instagram {
+	color: black;
+	font-size: 100px;
 	 -webkit-animation-name: fadeInUpBig;
    -moz-animation-name: fadeInUpBig;
    -o-animation-name: fadeInUpBig;
